@@ -9,8 +9,10 @@ app.use((req, res, next) => {
   next();
 });
 
+app.
+
 app.get('/apiv1', (req, res) => {
-  const data = fs.readFileSync('data.json', 'utf8');
+  const data = fs.readFileSync('data2.json', 'utf8');
   res.send(data);
 });
 
